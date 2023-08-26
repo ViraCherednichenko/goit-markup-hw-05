@@ -716,3 +716,38 @@ letter-spacing: 0.32px;
 .modal-btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-title {
+  color: var(--navyblue, #2E2F42);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
+.modal-form {
+}
+.modal-form-content {
+}
+.modal-label {
+  display: block;
+  color:var( #8E8F99);
+  font-family: Roboto;
+font-size: 12px;
+
+line-height: 1.17;
+letter-spacing: 0.04em;
+margin-bottom: 4px;
+
+}
+.inputs-content {
+}
+.modal-input {
+}
+.modal-icons {
+}
+.textarea-content {
+}
+.modal-textarea {
+}
