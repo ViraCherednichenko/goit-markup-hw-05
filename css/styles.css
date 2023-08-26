@@ -725,7 +725,7 @@ letter-spacing: 0.32px;
   
 }
 .modal-title {
-  color: var(#2E2F42);
+  color:var(#2E2F42);
 text-align: center;
 font-family: Roboto;
 font-size: 16px;
