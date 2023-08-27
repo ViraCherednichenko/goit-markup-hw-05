@@ -743,17 +743,21 @@ ul {
   align-items: flex-start;
   gap: 8px;
 }
+.modal-form-content{
+  margin-bottom: 8px;
+}
 
 .modal-label {
   display: block;
   margin-bottom: 4px;
   color: var(--lightslate, #8e8f99);
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
 }
 .inputs-content {
   margin-bottom: 8px;
+  position: relative;
 }
 .modal-input {
   width: 100%;
