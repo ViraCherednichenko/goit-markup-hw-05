@@ -801,6 +801,9 @@ ul {
 .modal-textarea:focus{
   border-color: #4D5AE5;
 }
+.modal-checkbox{
+  margin-bottom: 24px; 
+}
 .modal-form-agreement {
   color: var(--lightslate, #8e8f99);
   font-size: 12px;
