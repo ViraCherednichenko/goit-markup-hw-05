@@ -824,7 +824,7 @@ color:#8e8f99;
 }
 
 
-  .checkbox:checked+modal-user-privacy>modal-form-desc{
+  .checkbox:checked+.modal-user-privacy>.modal-form-desc{
  background-color: #404bbf; 
   border: none;
   fill:#F4F4FD;
