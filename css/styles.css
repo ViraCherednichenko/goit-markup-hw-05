@@ -804,13 +804,13 @@ ul {
 .modal-checkbox{
   margin-bottom: 24px; 
 }
-.modal-form-agreement {
-  color:#8e8f99; 
+.modal-form-agreement {  
   font-size: 12px;
   letter-spacing: 0.04em; 
   display: block; 
-  line-height: 1.17;
-}
+  line-height: 1.17; }
+
+
 .modal-form-desc{
   width: 16px; 
   height: 16px;
