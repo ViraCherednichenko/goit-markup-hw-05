@@ -809,7 +809,8 @@ ul {
   letter-spacing: 0.04em; 
   display: block; 
   line-height: 1.17;
-color: #8e8f99; }
+color:#8e8f99; 
+}
 .checkbox .modal-form-desc:disabled{
   background-color: #404bbf;
   border: none;
