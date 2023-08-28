@@ -808,9 +808,15 @@ ul {
   font-size: 12px;
   letter-spacing: 0.04em; 
   display: block; 
-  line-height: 1.17; }
+  line-height: 1.17;
+color: #8e8f99; }
+.checkbox:disabled{
+  background-color: #404bbf;
+  border: none;
+  fill:#F4F4FD;
+}
 
-
+ 
 .modal-form-desc{
   width: 16px; 
   height: 16px;
