@@ -811,13 +811,15 @@ ul {
   line-height: 1.17;
 color:#8e8f99; 
 }
- .modal-form-desc:disabled{
-  background-color: #404bbf;
+ 
+
+
+  .checkbox:checked+modal-user-privacy>modal-form-desc{
+ background-color:#404bbf ;
   border: none;
   fill:#F4F4FD;
 }
-
- 
+  }
 .modal-form-desc{
   width: 16px; 
   height: 16px;
