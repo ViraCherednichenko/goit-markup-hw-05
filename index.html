@@ -352,6 +352,74 @@
    </div>
 </div>
    </footer>
-   
+   <div class="blackdrop is-open">
+    <div class="modal">
+<button class="blackdrop-button" aria-label="Close modal">
+    <svg class="close-icon" width="8" height="8">
+      <use href="./images/icons.svg#icon-close"></use>
+    </svg>
+</button>
+
+<p class="blackdrop-text">Leave your contacts and we will call you back</p>
+
+<form class="blackdrop-form">
+    <div class="input-container">
+        <label class="label-modal" for="user-name">Name</label>
+        <div class="box-input-modal">
+        <input 
+            class="input-modal"
+            type="text"
+            name="name" 
+            id="user-name"/>
+        <svg class="input-icon" width="18" height="24">
+        <use href="./images/icons.svg#icon-person"></use>
+        </svg>
+        </div>
+    <label class="label-modal" for="user-phone">Phone</label>
+         <div class="box-input-modal">
+        <input 
+            class="input-modal"
+            type="text"
+            name="phone" 
+            id="user-phone"/>
+        <svg class="input-icon" width="18" height="24">
+        <use href="./images/icons.svg#icon-phone"></use>
+        </svg>
+        </div>
+    <label class="label-modal" for="user-email">Email</label>
+         <div class="box-input-modal">
+        <input 
+            class="input-modal"
+            type="text"
+            name="user-email" 
+            id="email"/>
+        <svg class="input-icon" width="18" height="24">
+        <use href="./images/icons.svg#icon-email"></use>
+        </svg>
+        </div>
+   <div class="box-checkbox-modal">
+            <input
+              class="input-checkbox-modal visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+            />
+
+            <label class="label-accept-privacy" for="user-privacy">
+                 <span class="span-icon-checkbox">
+                     <svg class="icon-accept" width="10" height="8">
+                  <use href="./images/icons.svg#icon-click"></use>
+                </svg>
+                </span>I accept the terms and conditions of the
+              <a class="link-privacy-modal" href="#">Privacy Policy</a>
+              </label>
+          </div>
+
+          <button class="order-button form-send-btn">Send</button>
+    </div>
+</form>
+    </div>
+   </div>
 </body>
 </html>
