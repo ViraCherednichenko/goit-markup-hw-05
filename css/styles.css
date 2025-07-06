@@ -619,10 +619,11 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
+margin-bottom: 16px;
 }
 .footer-form {
 display: flex;
-gap 24px;
+gap: 24px;
 }
 .footer-input-email {
 width: 264px; 
