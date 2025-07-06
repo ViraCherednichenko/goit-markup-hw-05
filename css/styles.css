@@ -492,16 +492,20 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 }
 
 .close-icon {
+fill: #2e2f42;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.blackdrop-button:hover
+.blackdrop-button:hover,
 .blackdrop-button:focus {
-border: none;
-background-color: #404bbf;
-fill: #ffffff;
-
+  background-color: #404bbf;
+  border: none;
 }
+.blackdrop-button:hover .close,
+.blackdrop-button:focus .close {
+  fill: #ffffff;
+}
+
 .blackdrop-text {
 font-weight: 500;
 font-size: 16px;
@@ -540,8 +544,10 @@ outline: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
  border: 1px solid rgba(46, 47, 66, 0.4); 
 }
-.input-modal:focus .input-icon {
+.input-modal:focus  {
 border-color: #4D5AE5;
+}
+.input-modal:focus ..input-icon {
 fill: #4D5AE5;
 }
 .input-icon {
@@ -655,6 +661,7 @@ cursor: pointer;
 background-color: #4D5AE5;
 border: none;
 border-radius: 4px;
+min-width: 165px;
 }
 .footer-btn-icon {
 margin-left: 16px; 
