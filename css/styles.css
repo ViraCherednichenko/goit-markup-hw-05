@@ -619,6 +619,13 @@ background-color: #4D5AE5;
 border: none;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.form-send-btn {
+    margin: 0 auto;
+}
+.form-send-btn:hover,
+.form-send-btn:focus {
+    background-color: #404BBF;
+}
 .box-checkbox-modal {
 margin-bottom: 24px; 
 }
