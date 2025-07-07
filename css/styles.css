@@ -621,7 +621,8 @@ color: #4d5ae5;
 }
 
 
-.input-checkbox-modal:checked+.span-icon-checkbox {
+.input-checkbox-modal:checked+.label-accept-privacy 
+.span-icon-checkbox {
 background-color: #404bbf;
 border: none; 
 fill:#F4F4FD;
