@@ -625,7 +625,9 @@ margin-bottom: 24px;
 .link-privacy-modal {
 color: #4d5ae5;
 }
-
+.box-input-modal:focus-within .input-icon {
+    fill: #4D5AE5;
+}
 
 .input-checkbox-modal:checked +.label-accept-privacy 
 .span-icon-checkbox {
